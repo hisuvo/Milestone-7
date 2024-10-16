@@ -34,25 +34,37 @@ function App() {
       <Book Books={Books}></Book>
 
       {
-        actressName.map(name => <Actroes name={name}> </Actroes>)
+        actressName.map(name => <Actroes name={name} />)
       }
 
       {
         SingerName.map(singer => <Singer id={singer.id} name={singer.name} age={singer.age} ></Singer>)
       }
 
+      <MyButton />
+
       {/* <Todo task="learn React" isDone={true} ></Todo>
       <Todo task="Explor core concept" isDone={false} ></Todo>
-      <Todo task="Try jsx" isDone={true} ></Todo> */}
+      <Todo task="Try jsx" isDone={true} /> */}
 
 
-      {/* <Person name="Suvo Datta" age="23" job="JavaScript Developer" country="Bangladesh" ></Person>
-      <Person name="Jhone" age="35" job="Developer" country="USA" ></Person>
-      <Student></Student>
-      <Developer developer='Font-end' language='JavaScript' exprence="7 " ></Developer>
-      <Developer developer='Back-end' language='TypeScript' exprence="5" ></Developer>
-      <Developer developer='full Stack' language='JavaScript, TypeScript, Python' exprence="3" ></Developer> */}
+      {/* <Person name="Suvo Datta" age="23" job="JavaScript Developer" country="Bangladesh" />
+      <Person name="Jhone" age="35" job="Developer" country="USA" />
+      <Student/>
+      <Developer developer='Font-end' language='JavaScript' exprence="7 " />
+      < developer='Back-end' language='TypeScript' exprence="5" />
+      < developer='full Stack' language='JavaScript, TypeScript, Python' exprence="3" /> */}
     </>
+  )
+}
+
+
+function MyButton() {
+  function handleClick() {
+    alert("Hello World")
+  }
+  return (
+    <button onClick={handleClick}>Click Me!</button>
   )
 }
 
