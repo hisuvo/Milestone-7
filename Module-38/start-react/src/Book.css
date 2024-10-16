@@ -1,0 +1,8 @@
+.book {
+    padding: 1rem;
+    border: 2px solid rebeccapurple;
+    font-size: 1.3rem;
+    margin: 1rem 0;
+    border-radius: 1rem;
+    text-align: left;
+}
