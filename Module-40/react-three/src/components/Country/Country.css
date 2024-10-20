@@ -1,0 +1,16 @@
+.country {
+    border: 2px solid ghostwhite;
+    background: #fff2;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.visted {
+    background-color: ghostwhite;
+    border: 2px solid rgb(120, 120, 244);
+    color: #000;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
